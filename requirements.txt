@@ -1,1 +1,11 @@
 openai==0.28.0
+requests
+pandas
+streamlit
+plotly
+bs4
+pandas
+time
+datetime
+os
+

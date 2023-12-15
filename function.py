@@ -1,13 +1,8 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-import pandas as pd
-from IPython.display import display
-import json
 import time
-
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.keys import Keys
 from datetime import datetime
 # Gestion d'une base de données
 

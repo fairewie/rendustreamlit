@@ -1,15 +1,16 @@
 import streamlit as st
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
 
 from function import donner
 import openai
 from dotenv import load_dotenv
 import os
-from IPython.display import Image
-import requests
 
+#from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.chrome.options import Options
+
+    
 
 load_dotenv()
 openai.api_key = os.getenv("API_KEY")
